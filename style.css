@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body{
+  background-color: darkolivegreen;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  text-align: center;
+  color: beige;
+  margin: 2rem;
+}
+form{
+  background-color: beige;
+  color: rgb(64, 85, 27);
+  width: 40rem;
+  margin: 4rem auto;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgb(20, 20, 20);
+  text-align: left;
+  padding: 1rem;
+}
+h2{
+  margin: 1rem 0;
+}
+#personalInfo input{
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+  margin: 0 auto 0.8rem;
+}
+#otherInfo label{
+  display: block;
+}
+textarea{
+  width: 100%;
+  resize: none;
+}
+select{
+  width: 100%;
+  height: 1.5rem;
+}
+#terms{
+  margin: 1rem 0;
+}
+#buttons{
+  display: flex;
+  justify-content: end;
+}
+button{
+  padding: 5px 14px;
+  margin: 0.2rem;
+  color: lightgoldenrodyellow;
+  font-weight: bold;
+  background-color: darkolivegreen;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(194, 135, 25);
+  color: greenyellow;
+}
